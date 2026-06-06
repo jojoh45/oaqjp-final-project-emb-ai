@@ -22,7 +22,7 @@ def emotion_detector(text):
         "fear": fear_score, 
         "joy": joy_score,
         "sadness": sadness_score,
-        "dominant emotion": max(emotions, key=emotions.get) 
+        "dominant_emotion": max(emotions, key=emotions.get) 
     }
 
     return ans
